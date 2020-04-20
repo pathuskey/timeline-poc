@@ -1,0 +1,13 @@
+@import "../scss/variables";
+
+.timeline {
+  position: relative;
+
+  &--inview {
+    .timeline {
+      &__menu {
+        opacity: 1;
+      }
+    }
+  }
+}

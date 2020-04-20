@@ -1,0 +1,15 @@
+@import "variables";
+
+@import "~bootstrap/scss/root";
+@import "~bootstrap/scss/reboot";
+@import "~bootstrap/scss/type";
+@import "~bootstrap/scss/grid";
+@import "~bootstrap/scss/transitions";
+@import "~bootstrap/scss/utilities";
+
+@import "animations";
+
+// Custom Styles
+body {
+  color: $dark;
+}
